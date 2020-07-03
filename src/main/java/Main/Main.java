@@ -103,7 +103,7 @@ public class Main implements CommandLineRunner{
 	public String Insertions(ReportModel o) {
 		
 		String status = "";
-		RestTemplate restTemplate = new RestTemplate();
+	/*	RestTemplate restTemplate = new RestTemplate();
 		String fooResourceUrl
 		  = "https://endpoint_to_insert_data";
 		HttpHeaders headers = new HttpHeaders();
@@ -118,7 +118,7 @@ public class Main implements CommandLineRunner{
 			
 		   status = String.valueOf(exception.getStatusCode().value());
 		   
-		}		
+		}		*/
 		return status;
 		}
 }
